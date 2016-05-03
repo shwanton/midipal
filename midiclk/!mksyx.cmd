@@ -1,1 +1,0 @@
-python tools/hex2sysex/hex2sysex.py --syx --page_size=64 --output_file build/midiclk/midiclk.syx build/midiclk/midiclk.hex
