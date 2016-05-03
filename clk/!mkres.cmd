@@ -1,0 +1,1 @@
+python avrlib/tools/resources_compiler.py midiclk/resources/resources.py

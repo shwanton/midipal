@@ -1,0 +1,1 @@
+python tools/hex2sysex/hex2sysex.py --syx --page_size=64 --obsolete_manufacturer_id --device_id=3 --output_file build/midiclk/midiclk_pal.syx build/midiclk/midiclk.hex
