@@ -1,0 +1,14 @@
+MidiGAL firmware update steps:
+
+1.	Connect MIDI interface output to MidiGAL's MIDI IN
+2.	Power on MidiGAL while holding down the encoder. MIDI LEDs will blink shortly then MIDI IN LED will stay lit. 
+    The display will remain blank or contain a line of box characters.
+4.	Send firmware update sysex file (*.syx) to your MIDI interface port with 250ms delay between sysex buffers.
+    Elektron's C6 works great on OS X and Windows. Classic MIDI-OX is also good on Windows. 
+    MIDI LEDs will be blinking while firmware sysex is being received.
+5.	Firmware update takes a couple of minutes, MidiGAL will automatically reset when update is done.
+
+IMPORTANT NOTE: if your MidiGAL originally came with MIDIpal firmware, please use firmware sysex file with _pal.syx 
+suffix. These files are formatted for MIDIpal boot loader, whereas regular .syx files are formatted for MidiGAL 
+bootloader.
+
